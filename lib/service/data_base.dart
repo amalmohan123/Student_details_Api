@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:student_details/model/semester_model.dart';
-
-import 'package:student_details/reposetory/urls.dart';
+import 'package:student_details/service/urls.dart';
 import 'package:http/http.dart' as http;
 import 'package:student_details/model/acadamic_model.dart';
 

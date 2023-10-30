@@ -1,39 +1,3 @@
-// class SemesterModel {
-//   final int courseTreeId;
-//   final String courseType;
-//   final String isDeleted;
-//   final int courseTypesId;
-//   final int priorityOrder;
-//   final String course;
-//   final int parentId;
-
-//   SemesterModel({
-//     required this.courseTreeId,
-//     required this.courseType,
-//     required this.isDeleted,
-//     required this.courseTypesId,
-//     required this.priorityOrder,
-//     required this.course,
-//     required this.parentId,
-//   });
-
-//   factory SemesterModel.fromJson(Map<String, dynamic> json) {
-//     return SemesterModel(
-//       courseTreeId: json['courseTreeId'],
-//       courseType: json['courseType'],
-//       isDeleted: json['isDeleted'],
-//       courseTypesId: json['courseTypesId'],
-//       priorityOrder: json['priorityOrder'],
-//       course: json['course'],
-//       parentId: json['parentId'],
-//     );
-//   }
-// }
-
-
-
-
-
 
 import 'dart:convert';
 import 'package:http/http.dart' as http;
